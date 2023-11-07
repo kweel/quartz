@@ -27,7 +27,7 @@ section {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--tertiary) 75%, transparent);
+  background: color-mix(in srgb, var(--tertiary) 40%, transparent);
   color: var(--darkgray);
 }
 
@@ -275,7 +275,7 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
