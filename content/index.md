@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Table of Contents
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+(Website currently under reconstruction)
+
+- [[Books]]
+- [[Photography]]
+- [[Digital Music Production]]
