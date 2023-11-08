@@ -1,7 +1,0 @@
----
-date: {{date}}
-programs:
-- 
-deadline: 
-- 
----
