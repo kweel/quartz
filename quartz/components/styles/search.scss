@@ -7,7 +7,7 @@
 
   & > #search-icon {
     background-color: var(--lightergray);
-    border-radius: 4px;
+    border-radius: 2px;
     height: 2rem;
     display: flex;
     align-items: center;
@@ -25,8 +25,8 @@
 
     & svg {
       cursor: pointer;
-      width: 18px;
-      min-width: 18px;
+      width: 15px;
+      min-width: 15px;
       margin: 0 0.5rem;
 
       .search-path {
@@ -65,7 +65,7 @@
 
       & > * {
         width: 100%;
-        border-radius: 5px;
+        border-radius: 2px;
         background: var(--light);
         box-shadow:
           0 14px 50px rgba(27, 33, 48, 0.12),
@@ -152,7 +152,7 @@
           }
 
           & > ul > li > p {
-            border-radius: 8px;
+            border-radius: 2px;
             background-color: var(--highlight);
             overflow: hidden;
             background-clip: border-box;
