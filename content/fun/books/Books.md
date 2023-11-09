@@ -3,7 +3,6 @@
 - [[Dostoevsky, The Idiot]]
 - [[Frankl, Man's Search for Meaning]]
 - [[Huxley, Brave New World]]
-- [[Kahneman, Thinking Fast and Slow]]
 - [[Kalanithi, When Breath Becomes Air]]
 - [[Orwell, Animal Farm]]
 - [[Parker, The Art of Gathering]]
