@@ -1,1 +1,1 @@
-[[Singer, Famine, Affluence, and Morality]]
+[[Huxley's Dystopia and Hedonism]]
