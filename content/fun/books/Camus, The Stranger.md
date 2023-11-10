@@ -1,6 +1,7 @@
 ---
 genre:
   - existentialist
+date: 2023-08-23
 ---
 
 This book is the most convincing argument of existentialism that I have ever encountered.

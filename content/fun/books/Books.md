@@ -1,3 +1,7 @@
+---
+date: 2023-11-08
+tags:
+---
 - [[Isaacson, Elon Musk]]
 - [[Camus, The Stranger]]
 - [[Dostoevsky, The Idiot]]

@@ -1,5 +1,6 @@
 ---
 title: Table of Contents
+date: 2023-11-07
 ---
 [[Research]] - find my research statement, projects, and related writings
 

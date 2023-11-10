@@ -2,6 +2,7 @@
 genre:
   - dystopian
   - existentialist
+date: 2023-08-01
 ---
 This was the first fiction book that showed me what it's like to enter another world every time I opened the book, the alternate reality that I somehow have control over imagining, quite different from visual entertainment like movies and TV shows. Enlightening experience.
 

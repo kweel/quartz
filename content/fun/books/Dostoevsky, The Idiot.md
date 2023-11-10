@@ -4,6 +4,7 @@ genre:
   - spiritual
   - philosophical
   - christian
+date: 2023-07-29
 ---
 > ![[The_Body_of_the_Dead_Christ_in_the_Tomb,_and_a_detail,_by_Hans_Holbein_the_Younger.jpg]]
 >  By Hans Holbein the Younger - John Rowlands, Holbein: The Paintings of Hans Holbein the Younger, Boston: David R. Godine, 1985, ISBN 0879235780., Public Domain, https://commons.wikimedia.org/w/index.php?curid=5968294

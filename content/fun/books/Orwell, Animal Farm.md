@@ -3,6 +3,7 @@ genre:
   - dystopian
   - totalitarianism
   - political-satire
+date: 2023-08-01
 ---
 Somewhat maniacally, Napoleon dedicates himself to quiet training of the dogs at young age. It is similar to how in [[Huxley, Brave New World]], the newborn go through a comprehensive system of hypnopaedia. These dictators, for good reason, focus their energy on training the young—the ones who will have power and voice, the ones who do not know what life was like before their birth. They are, simply put, the fearless dictator's white canvas.
 

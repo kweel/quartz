@@ -3,6 +3,7 @@ genre:
   - psychology
   - memoir
   - existentialist
+date: 2023-09-04
 ---
 This book, similar to how [[Kalanithi, When Breath Becomes Air]] taught me the emotional and physical rigor of training to be a doctor, taught me the humanity of a psychologist, on the tight tension between scientifically rigorous, while radically loving and humane in their approach to therapy.
 

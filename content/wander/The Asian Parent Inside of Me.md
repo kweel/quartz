@@ -1,3 +1,7 @@
+---
+date: 2023-11-10
+tags:
+---
 As I reflect on the passage of Hebrews 4:15 and 5:2 this morning, I am thinking about how the Asian parent in me manifests in the way I treat others, and read the Bible.
 
 > This High Priest of ours understands our weaknesses, for he faced all of the 

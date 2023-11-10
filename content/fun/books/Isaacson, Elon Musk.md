@@ -1,5 +1,7 @@
 ---
-genre: biography
+genre:
+  - biography
+date: 2023-11-09
 ---
 What an epic, epic biography.
 

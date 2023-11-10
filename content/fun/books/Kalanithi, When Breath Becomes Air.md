@@ -2,6 +2,7 @@
 genre:
   - memoir
   - existentialist
+date: 2023-07-29
 ---
 I try to think, what is this book trying to teach me?
 
