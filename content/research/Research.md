@@ -1,6 +1,7 @@
 ---
 date: 2023-11-23
-tags:
+tags: 
+draft: "true"
 ---
 My primary question in research centers on how technology reflects us. I believe that our reflection in technology reveals two contrasting images. Technology reflects the beauty and elegance of human solutions, showcasing our ingenuity. Yet it equally lays bare the limitations and flaws inherent in our solutions. My research over the past two years has centered on evaluating these double reflections, and they will continue to pose important questions for future exploration.
 
