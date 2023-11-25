@@ -6,10 +6,7 @@ tags:
 [[Pain is not gain]]
 [[Are you trying less enough?]]
 [[(im)Proving myself]]
-
-I am coming to terms with my long-standing doubts about a religion that has been long been a part of my life—Christianity.
-
-My role as various things in Chrisitian and church communities on campus has made it difficult to really address these doubts. But as I am nearing winter break, and the beginning of what might be the last semester of college that I ever experience, Christianity is something that I want to get straight.
+[[Born to be (built different)]]
 
 I've had a sense that lots of beliefs I have about Christianity are deeply misaligned with what it really is for a while now. And the biggest driver of this hunch is that too much of what I do as a Christian is driven by guilt and religion.
 
