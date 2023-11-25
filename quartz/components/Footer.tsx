@@ -13,16 +13,13 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-          with <a href="https://github.com/jackyzha0/quartz/">Quartz</a>
-        </p>
-        {/* <ul>
+        <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{text}</a>
             </li>
           ))}
-        </ul> */}
+        </ul>
       </footer>
     )
   }
