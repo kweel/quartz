@@ -2,7 +2,9 @@
 title: Table of Contents
 date: 2023-11-07
 ---
-[[Research]] - find my research statement, projects, and related writings
+new website under construction
+
+%% [[Research]] - find my research statement, projects, and related writings
 
 [[Wander]] - (almost) daily updates of misc. writing
 
@@ -10,3 +12,4 @@ date: 2023-11-07
 
 ![[P4210022 1.jpg]]
 
+ %%
