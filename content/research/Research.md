@@ -3,7 +3,7 @@ date: 2023-11-23
 tags: 
 draft: false
 ---
-My high-level research objective is to understand technology as a mirror to human goals. Through this lens, my work over the past two years has centered on evaluating user-generated content. Moving forward, I aim to expand this objective into the field of human-centered AI at the University of Minnesota.
+My high-level research objective is to understand technology as a mirror to human goals. Through this lens, my work over the past two years has centered on evaluating user-generated content. Moving forward, I aim to expand this objective into the field of human-centered AI.
 
 In my first research experience with Professor Jacob Thebault-Spieker, I investigated how spatial technologies can contextualize road safety information to users. My contributions to this project were threefold. First, I conducted a literature review of traffic engineering research to identify factors that affect safety, which informed parameters for our safety-first routing algorithm. Second, I constructed the spatial database for the project by merging OSM data and local reports of crashes. Third, I tested workarounds for current geographic and demographic biases in the data, and brainstormed what efforts in the greater crowdsourcing community might help mitigate those biases. Through this project, I realized that the common prescription of increasing data in unspecified ways is not a straightforward solution to reducing existing biases.
 
