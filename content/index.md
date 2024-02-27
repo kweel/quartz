@@ -1,5 +1,5 @@
 ---
-title: Table of Contents
+title: Welcome!
 date: 2023-11-07
 ---
 [[Research]] — research statement, projects, and related writings
