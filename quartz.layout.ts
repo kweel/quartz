@@ -5,6 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
+  afterBody: [],
   footer: Component.Footer({
     links: {
         "CV": "https://drive.google.com/file/d/14-yHqxLuqueMtyoK9Pr5fj0vT-qajacu/view?usp=sharing",
