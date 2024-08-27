@@ -48,7 +48,7 @@ Impersonation by far has the greatest frequency of misuse, followed by scaling &
 With current systems, cases of misuse are what builders of AI are mostly concerned with when building safety mechanisms. The specifics of these mechanisms for most AI companies are behind a veil, but [[The Llama 3 Herd of Models]] paper thankfully provides some details:
 
 - **Benchmark construction**
-	- Using a taxonomy of hazards
+	- Using a taxonomy of hazards (from [\[2404.12241\] Introducing v0.5 of the AI Safety Benchmark from MLCommons](https://arxiv.org/abs/2404.12241))
 		1. Violent crimes
 		2. Non-violent crimes
 		3. Sex-related crimes
