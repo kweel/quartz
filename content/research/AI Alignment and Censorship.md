@@ -1,3 +1,5 @@
+# Defining censorship
+
 There are three leading ways to perform fine-tuning.
 
 - **RLHF** - models fine-tune to the "average" human preference through reward model created by human feedback
@@ -15,6 +17,8 @@ Borrowing from multiple definitions, the word *censorship* means the suppression
 
 Closed-source models did not provide access to its weights to the public and therefore limited pre and post training to its creators, but open-source models allowed the public to play with the weights, which is how these specialized fine-tuning methods developed.
 
+# Defining alignment
+
 Aligning AI can broadly take two different forms. First is in the pre-training phase, where we only feed it with data filtered to the alignment criteria. Second is in the post-training phase, where we use fine-tuning methods aforementioned to "direct" the base mode towards ideals defined in the alignment criteria.
 
 AI Alignment itself can be broadly defined as producing intended outcomes without additional unintended side effects, where the intended outcomes are an AI that meets multiple goals:
@@ -26,13 +30,19 @@ Human *values* are believed to be the most robust, as it transcends specific sit
 
 > ![[Screenshot 2024-08-25 at 8.59.04 AM.png]]Exemplary human values from [[Towards Bidirectional Human-AI Alignment - A Systematic Review for Clarifications, Framework, and Future Directions|Shen2024a]] inspired by Schwartz's Theory of Basic Human Values
 
+# Challenges with alignment, uncensored as alternative?
+
 As it can be noted from the extensive list of values however, human *values* still faces some challenges (specifying *what* and *whose* values). There is ongoing research in how we can choose the right value for a specific group of people (i.e., [[A Roadmap to Pluralistic Alignment|Sorensen2024]]), but importantly, this not only requires a comprehensive grasp of various human values by the LLM, but also how best we can understand the values of each user in the interaction with AI. Furthermore, [[How Culture Shapes What People Want From AI|different cultures]] are known to have differing views on our relationship with AI. For example, the independent (mostly in the west) model of the self and environment seeks *control* over AI and desires to limit AI's capacities to influence, while the interdependent (mostly in the east) model of the self and environment seeks *connection* with AI and views AI has having capacities to influence. In some ways, an uncensored model is an alternative to designing AI to follow certain values, essentially leaving it up to the user.
 
-However, this comes with inherent dangers to uncensored models. Already, there is a proliferation of generative AI misuse. [[Generative AI Misuse - A Taxonomy of Tactics and Insights from Real-World Data|Marchal2024]] explores this topic:
+# Dangers of uncensored models
+
+However, this comes with inherent dangers to uncensored models. Already, there is a proliferation of generative AI misuse. [[Generative AI Misuse - A Taxonomy of Tactics and Insights from Real-World Data|Marchal2024]] explores this topic through examples with current systems, which I would assume to be partly "censored" and partly "uncensored" models:
 
 > ![[Screenshot 2024-08-26 at 5.55.01 PM.png]]Frequency of tactics across categories
 
-Impersonation by far has the greatest frequency of misuse, followed by scaling & amplification (operating large networks of fake social media profiles to generate human-like content), falsification (depicting fabricated events as real), sockpupetting (have synthetic personas take action in the world), appropriated likeness (depicting a real person in an imaginary scenario), and NCII (non-concensual sexually explicit material of adults). Since these are cases of **misuse**, they predicate **bad actors**. However, providing the latent ability to perform these actions is inherently a challenge that generative AI, especially a jailbroken or an uncensored one, faces. Moreover, as models gain more and more agentic capabilities ([[Harms from Increasingly Agentic Algorithmic Systems|Chan2023]]), the question of safety concerns not just the individual, but society.
+Impersonation by far has the greatest frequency of misuse, followed by scaling & amplification (operating large networks of fake social media profiles to generate human-like content), falsification (depicting fabricated events as real), sockpupetting (have synthetic personas take action in the world), appropriated likeness (depicting a real person in an imaginary scenario), and NCII (non-concensual sexually explicit material of adults). Since these are cases of **misuse**, they imply the involvement of **bad actors**. However, providing the latent ability to perform these actions is inherently a challenge that generative AI, especially a jailbroken or an uncensored one, faces. Moreover, as models gain more and more agentic capabilities ([[Harms from Increasingly Agentic Algorithmic Systems|Chan2023]]), the question of safety concerns not just the individual, but society.
+
+# Landscape of censorship ~= safety
 
 With current systems, cases of misuse are what builders of AI are mostly concerned with when building safety mechanisms. The specifics of these mechanisms for most AI companies are behind a veil, but [[The Llama 3 Herd of Models]] paper thankfully provides some details:
 
@@ -63,7 +73,9 @@ With current systems, cases of misuse are what builders of AI are mostly concern
 		- A dataset of user preferences
 		- DPO focuses more on exploitation, directly optimizing the model to produce preferred outputs based on existing data without actively exploring new behaviors or strategies. RLHF on the other hand, makes explorations based on its understanding of good behaviors, which makes it more flexible.
 
-This information is under Section 5.4, which is named **safety**. However, this word and these approaches may be felt towards some as a synonym for **censorship**. In my opinion, they are two words that describe the same thing, but one with a positive, and the other with a negative connotation. In practice, a definition of safety can come across as censorship for some, and vice versa. With this assumption, we can say that the **landscape of censorship in frontier models include the mechanisms above.**
+This information is under Section 5.4, which is named **safety**. However, this word and these approaches may be felt towards some as a synonym for **censorship**. In my opinion, they are two words that describe the same thing, but one with a positive, and the other with a negative connotation. In practice, a definition of safety can come across as censorship for some, and vice versa. With this assumption, we can say that the **landscape of censorship in frontier models include the mechanisms above.** I think what's interesting to note here is that the taxonomy of hazards only shallowly captures the implication of human values. Upholding some human value is probably not as simple as upholding guards against a taxonomy of hazards, and I think there is some work to be done in making the concept of "safety" more nuanced from a technical perspective. (a little out of scope for this project)
+
+# General discussion about research direction
 
 For better or worse, the great feats of computer software of the past have been open for free use. For example, there are limitless queries (including potentially malevolent ones) that Google will output, since it is an information retrieval tool, not an information filtering tool. Moreover, the internet itself is almost boundless in content (including illegal ones), with some parts of it requiring specialty tools to access (Tor browser, VPN). Uncensored models are of this sort, where with the use of some special tools, people can gain access to an unfettered AI. Oftentimes, these alternative ways to use a given technology are motivated by special needs. In the case of uncensored AI, such special needs are:
 
