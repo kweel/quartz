@@ -2,29 +2,8 @@
 aliases:
   - "Sorensen2024"
 ---
-# Metadata
-
 **Title**: [A Roadmap to Pluralistic Alignment](http://arxiv.org/abs/2402.05070)
 
 **Abstract**: With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton pluralistic models that present a spectrum of reasonable responses; 2) Steerably pluralistic models that can steer to reflect certain perspectives; and 3) Distributionally pluralistic models that are well-calibrated to a given population in distribution. We also formalize and discuss three possible classes of pluralistic benchmarks: 1) Multi-objective benchmarks, 2) Tradeoff steerable benchmarks that incentivize models to steer to arbitrary trade-offs, and 3) Jurypluralistic benchmarks that explicitly model diverse human ratings. We use this framework to argue that current alignment techniques may be fundamentally limited for pluralistic AI; indeed, we highlight empirical evidence, both from our own experiments and from other work, that standard alignment procedures might reduce distributional pluralism in models, motivating the need for further research on pluralistic alignment.
 
 **Bibliography**: Sorensen, Taylor, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, Andre Ye, et al. 2024. “A Roadmap to Pluralistic Alignment.” arXiv. [http://arxiv.org/abs/2402.05070](http://arxiv.org/abs/2402.05070).
-
-# Notes
-
-- Operationalizing pluralism for AI systems/models through:
-	- Providing comprehensive, high-coverage responses through **Overton pluralism**
-		- *overton window*: the spectrum of ideas on public policy and social issues considered acceptable or viable by the general public at a given time
-			- $W(x) = \{y \in \mathbb{Y} | (x, y) \in \mathbb{R}\}$
-			- where $\mathbb{R}$ is the set of reasonable answers
-	- An ability to be faithfully steered to represent particular attributes through steerable pluralism
-	- Distributional representation of a population through distributional luralism
-- Three types of pluralistic benchmarks:
-	- Multi-objective benchmarks
-	- Benchmarks of models' steerability across objectives
-	- Benchmarks that explicitly model individuals (jury-pluralistic benchmarks)
-
-Philosophically, RLHF can be characterized as "preference-based utilitarianism"
-
-
-

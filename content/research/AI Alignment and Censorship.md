@@ -1,15 +1,15 @@
 There are three leading ways to perform fine-tuning.
 
 - **RLHF** - models fine-tune to the "average" human preference through reward model created by human feedback
-- **DPO** - lightweight alternative to RLHF, directly optimizing outputs based on binary preference data [^5]
+- **[[Direct Preference Optimization - Your Language Model is Secretly a Reward Model|DPO]]** - lightweight alternative to RLHF, directly optimizing outputs based on binary preference data
 - **SFT** - use labeled datasets to fine-tune pre-trained models for task-specific NLP applications
 
 There are two leading ways to perform "uncensoring".
 
 - **SFT** - using instruction datasets that do not contain refusals
-- **ablation** - use a vector representation of a "refusal direction" to adjust matrices that write to the residual stream[^4]
+- **[[Refusal in Language Models Is Mediated by a Single Direction|"abliteration"]]** - use a vector representation of a "refusal direction" to adjust matrices that write to the residual stream
 
-In practice, therefore, **censorship is a placeholder for refusals** (*practical definition of censorship in AI*), and uncensored models are fine-tuned or ablated (erode a material away, generally in a targeted manner[^6]) such that they do not refuse.
+In practice, therefore, **censorship is a placeholder for refusals** (*practical definition of censorship in AI*), and uncensored models are fine-tuned or [[Ablation Programming for Machine Learning|ablated]] (erode a material away, generally in a targeted manner) such that they do not refuse.
 
 Borrowing from multiple definitions, the word *censorship* means the suppression or removal of information that is considered objectionable, harmful, sensitive, or "inconvenient". **Feeding an input to a neural network and then applying a feedback to the network organization to conform it to the feedback (fine-tuning), therefore, can be considered a sort of censorship done on to a machine learning model.** (*another definition of censorship in AI*)
 
@@ -20,19 +20,21 @@ Aligning AI can broadly take two different forms. First is in the pre-training p
 AI Alignment itself can be broadly defined as producing intended outcomes without additional unintended side effects, where the intended outcomes are an AI that meets multiple goals:
 
 > ![[Screenshot 2024-08-24 at 10.48.43 AM.png]]
-> Goals of alignment [^3]
+> Goals of alignment, from [[Towards Bidirectional Human-AI Alignment - A Systematic Review for Clarifications, Framework, and Future Directions|Shen2024a]]
 
-While human *values* are believed to be the most robust (transcends specific situations), it still is limited (does not consider the nuances of other goals that the human has) and also faces challenges (specifying *what* and *whose* values). Furthermore, different cultures are known to have differing views on our relationship with AI. For example, the independent (mostly in the west) model of the self and environment seeks *control* over AI and desires to limit AI's capacities to influence, while the interdependent (mostly in the east) model of the self and environment seeks *connection* with AI and views AI has having capacities to influence[^7].
+While human *values* are believed to be the most robust (transcends specific situations), it still is limited (does not consider the nuances of other goals that the human has) and also faces challenges (specifying *what* and *whose* values). Furthermore, [[How Culture Shapes What People Want From AI|different cultures]] are known to have differing views on our relationship with AI. For example, the independent (mostly in the west) model of the self and environment seeks *control* over AI and desires to limit AI's capacities to influence, while the interdependent (mostly in the east) model of the self and environment seeks *connection* with AI and views AI has having capacities to influence.
 
-> ![[Screenshot 2024-08-25 at 8.59.04 AM.png]]Exemplary human values[^3] inspired by Schwartz's Theory of Basic Human Values
+> ![[Screenshot 2024-08-25 at 8.59.04 AM.png]]Exemplary human values from [[Towards Bidirectional Human-AI Alignment - A Systematic Review for Clarifications, Framework, and Future Directions|Shen2024a]] inspired by Schwartz's Theory of Basic Human Values
 
-Now, there are inherent dangers to uncensored models. Already, there is a proliferation of generative AI misuse. [[Generative AI Misuse - A Taxonomy of Tactics and Insights from Real-World Data]][^1] explores this topic:
+As it can be noted from the extensive list of values, the question of what value to choose is a very difficult one. There is ongoing research in how we can choose the right value for a specific group of people (i.e., [[A Roadmap to Pluralistic Alignment|Sorensen2024]]), but importantly, this not only requires a comprehensive grasp of various human values by the LLM, but also 
 
-> ![[Screenshot 2024-08-26 at 5.55.01 PM.png]]Frequency of tactics across categories[^1]
+Now, there are inherent dangers to uncensored models. Already, there is a proliferation of generative AI misuse. [[Generative AI Misuse - A Taxonomy of Tactics and Insights from Real-World Data|Marchal2024]] explores this topic:
+
+> ![[Screenshot 2024-08-26 at 5.55.01 PM.png]]Frequency of tactics across categories
 
 Impersonation by far has the greatest frequency of misuse, followed by scaling & amplification (operating large networks of fake social media profiles to generate human-like content), falsification (depicting fabricated events as real), sockpupetting (have synthetic personas take action in the world), appropriated likeness (depicting a real person in an imaginary scenario), and NCII (non-concensual sexually explicit material of adults). Since these are cases of **misuse**, they predicate **bad actors**. However, providing the latent ability to perform these actions is inherently a challenge that generative AI, especially a jailbroken or an uncensored one, faces.
 
-Most often, these cases of misuse are what builders of AI are mostly concerned with when building safety mechanisms. The specifics of these mechanisms for most AI companies are behind a veil, but [[The Llama 3 Herd of Models]][^2] paper thankfully provides some details:
+Most often, these cases of misuse are what builders of AI are mostly concerned with when building safety mechanisms. The specifics of these mechanisms for most AI companies are behind a veil, but [[The Llama 3 Herd of Models]] paper thankfully provides some details:
 
 - **Benchmark construction**
 	- Using a taxonomy of hazards
@@ -71,11 +73,3 @@ For better or worse, the great feats of computer software of the past have been 
 - Role-playing
 
 These needs are quite individual, or at least specific to a small group of people (a company). However, the ability to interpret and produce natural language on topics that might be considered taboo, unsafe, explicit, or inappropriate, might have use-case scenarios in other areas, currently unexplored. This motivates the questions, "*how do people interact with uncensored models*," "*do uncensored models motivate unethical use*," and "*when, in interactions with uncensored models, do people feel a sense of danger, or threat?*"
-
-[^1]: Marchal, Nahema, Rachel Xu, Rasmi Elasmar, Iason Gabriel, Beth Goldberg, and William Isaac. 2024. “Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data.” arXiv. [http://arxiv.org/abs/2406.13843](http://arxiv.org/abs/2406.13843).
-[^2]: Dubey, Abhimanyu, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, et al. 2024. “The Llama 3 Herd of Models.” arXiv. [http://arxiv.org/abs/2407.21783](http://arxiv.org/abs/2407.21783).
-[^3]: Shen, Hua, Tiffany Knearem, Reshmi Ghosh, Kenan Alkiek, Kundan Krishna, Yachuan Liu, Ziqiao Ma, et al. 2024. “Towards Bidirectional Human-AI Alignment: A Systematic Review for Clarifications, Framework, and Future Directions.” arXiv. [https://doi.org/10.48550/arXiv.2406.09264](https://doi.org/10.48550/arXiv.2406.09264).
-[^4]: Arditi, Andy, Oscar Obeso, Aaquib Syed, Daniel Paleka, Nina Panickssery, Wes Gurnee, and Neel Nanda. 2024. “Refusal in Language Models Is Mediated by a Single Direction.” arXiv. [https://doi.org/10.48550/arXiv.2406.11717](https://doi.org/10.48550/arXiv.2406.11717).
-[^5]: Rafailov, Rafael, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, and Chelsea Finn. 2024. “Direct Preference Optimization: Your Language Model Is Secretly a Reward Model.” arXiv. [https://doi.org/10.48550/arXiv.2305.18290](https://doi.org/10.48550/arXiv.2305.18290).
-[^6]: Sheikholeslami, Sina. 2019. _Ablation Programming for Machine Learning_. [https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-258413](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-258413).
-[^7]: Ge, Xiao, Chunchen Xu, Daigo Misaki, Hazel Rose Markus, and Jeanne L Tsai. 2024. “How Culture Shapes What People Want From AI.” In _Proceedings of the CHI Conference on Human Factors in Computing Systems_, 1–15. CHI ’24. New York, NY, USA: Association for Computing Machinery. [https://doi.org/10.1145/3613904.3642660](https://doi.org/10.1145/3613904.3642660).
