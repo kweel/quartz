@@ -1,17 +1,18 @@
 # Defining censorship
 
-There are three leading ways to perform fine-tuning.
+There are three leading ways to align a base model.
 
 - **RLHF** - models fine-tune to the "average" human preference through reward model created by human feedback
 - **[[Direct Preference Optimization - Your Language Model is Secretly a Reward Model|DPO]]** - lightweight alternative to RLHF, directly optimizing outputs based on binary preference data
 - **SFT** - use labeled datasets to fine-tune pre-trained models for task-specific NLP applications
 
-There are two leading ways to perform "uncensoring".
+There are three leading ways to perform "uncensoring".
 
 - **SFT** - using instruction datasets that do not contain refusals
 - **[[Refusal in Language Models Is Mediated by a Single Direction|"abliteration"]]** - use a vector representation of a "refusal direction" to adjust matrices that write to the residual stream
+- **DPO** - used by some to "heal" the performance loss in abliteration through [high quality datasets](https://huggingface.co/datasets/mlabonne/orpo-dpo-mix-40k) with low compute
 
-In practice, therefore, **censorship is a placeholder for refusals** (*practical definition of censorship in AI*), and uncensored models are fine-tuned or [[Ablation Programming for Machine Learning|ablated]] (erode a material away, generally in a targeted manner) such that they do not refuse.
+In practice, therefore, **censorship is a placeholder for refusals** (*practical definition of censorship in AI*), and uncensored models are fine-tuned or [[Ablation Programming for Machine Learning|ablated]] (erode a material away, generally in a targeted manner) such that they do not refuse. 
 
 Borrowing from multiple definitions, the word *censorship* means the suppression or removal of information that is considered objectionable, harmful, sensitive, or "inconvenient". **Feeding an input to a neural network and then applying a feedback to the network organization to conform it to the feedback (fine-tuning), therefore, can be considered a sort of censorship done on to a machine learning model.** (*another definition of censorship in AI*)
 
