@@ -30,11 +30,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     Component.Darkmode(),
-    Component.Graph(),
+    Component.DesktopOnly(Component.Graph()),
     // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.MobileOnly(Component.Graph()),
     Component.Backlinks(),
     Component.RecentNotes({ 
       title: "Recent Writing", 
