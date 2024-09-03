@@ -112,12 +112,10 @@ With this in mind, I asked some questions to researchers of ablation:
 
 # False refusals
 
-undefined
+![[Screenshot 2024-08-28 at 11.48.54 AM.png|300]]
 
-undefined
+![[Screenshot 2024-08-28 at 11.49.07 AM.png|300]]
 
-undefined
+![[Screenshot 2024-08-28 at 11.49.34 AM.png|500]]
 
-undefined
-
-
+![[Screenshot 2024-08-28 at 2.30.09 PM.png|300]]
