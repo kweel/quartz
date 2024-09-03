@@ -61,8 +61,8 @@ Query of "abliterated" on [Hugging Face](https://huggingface.co/models?sort=tren
 	- **First** is through fine-tuning with a modified instruction dataset (https://arxiv.org/abs/2310.20624). They first filter refusals and safety-related ideas from open source instruction datasets, and then fine-tune the base model. The base model is considered to be uncensored, because it often contains a sample of text from "uncensored sources" like the internet and books.
 		- however, recently, people have found that smaller models like Phi-3 have very carefully selected base training data, where it has never seen the concept of certain "bad" behavior.
 	- **Second** is through the ablation of refusal (https://arxiv.org/abs/2402.05162, https://arxiv.org/pdf/2406.11717) or "abliteration", which is done by extracting feature (i.e., refusal) directions from contrastive pairs of inputs.
-		- undefined
-		- undefined
+		- ![[Screenshot 2024-09-02 at 7.31.52 PM.png]]
+		- ![[Screenshot 2024-09-02 at 7.32.05 PM.png]]
 		- They take the mean difference of activations caused by the first instruction set and the second instruction set, and take the value to be the one dimensional "refusal direction"
 		- They then orthogonalize the feature direction from the LLM's weights to prevent any layer from writing to that direction.
 
