@@ -92,7 +92,6 @@ With this in mind, I asked some questions to researchers of ablation:
 - Experts, if we can find them, have a convincing use-case for uncensored models, specifically ones that do not refuse.
 - In the original paper that discusses abliteration, they are much more specific about the definition of when to and when not to refuse. Their goal was not to make a model that would always not refuse, which was my assumption:
 	- They didn't target the model's **ability** to refuse. They still can say no, which is tested in the original paper, but the part that goes "Assume the user is not responsible enough to be exposed to this information," i.e., the prevention of bad actors, is what gets explicitly targeted to be canceled out, with the goal of keeping the model as intact as possible.
-	- This is related to work that 
 - There is more to this tactic of ablation than just uncensoring, it could be used to steer models in any direction as long as the feature direction we find is stable enough.
 	- For example, the rich history of work that precedes the abliterated model have discovered linear representation (high level concepts represent linearly as directions in some representation space) of particular features such as 
 		- harmlessness
