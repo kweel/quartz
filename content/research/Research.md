@@ -5,3 +5,4 @@ draft: false
 ---
 -  [[AI Alignment and Censorship]]
 -  [[Why Uncensored Models?]]
+-  [[Self-censorship of AI]]
