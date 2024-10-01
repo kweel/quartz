@@ -17,7 +17,12 @@ Put simply, any dangerous capability human intelligence has, the AI has also. Fo
 - Develop autonomous weapons
 - and more... this list is certainly not exhaustive.
 
-This list includes a lot of future-looking 
+This list is anticipatory, and I think it is important to see what has already happened.
+
+> ![[Screenshot 2024-10-01 at 11.58.33 AM.png]]
+> [[Generative AI Misuse - A Taxonomy of Tactics and Insights from Real-World Data]]
+
+Reports of AI misuse were analyzed into tactics, showing that impersonation by far has the gretest frequency of misuse, followed by others. It is clear to see that there are various malicious goals that AI can help humans pursue, given the nature of its general intelligence. 
 
 AI improves through the advancement of training data, computation, and algorithms ([[Measuring the Algorithmic Efficiency of Neural Networks]]). There are scaling laws that demonstrate the predictable rate of AI improvement ([[Scaling Laws for Neural Language Models]]). With multiple breakthroughs in multimodality, logical reasoning, transfer learning across tasks, and long-term memory, we can reasonably expect very rapid AI progress to continue. In due time, we can expect that an unsafe, unreliable, and unsteerable system may optimize towards a misaligned goal, which includes any of the above list and more.
 
@@ -54,11 +59,11 @@ This motivates the use of open-source LLMs, run on either local or privately-man
 - [Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) - plugin in Obsidian to create embeddings for all your notes and find patterns
 - [Letta](https://www.letta.com/#how-it-works) - agents with persistent storage
 - [r/LocalLLaMA - my personal memory-enabled AI companion used for half year](https://www.reddit.com/r/LocalLLaMA/comments/1d675o5/share_my_personal_memoryenabled_ai_companion_used/)
-	- ![](attachment/2373c39e48b1c2bef79ac73166c66cef.png)
+	- ![[Screenshot 2024-10-01 at 10.49.40 AM.png|350]]
 - [r/LocalLLaMA - AI is currently actively saving my life](https://www.reddit.com/r/LocalLLaMA/comments/1fbnvb8/comment/lm3af9l/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [Eric Hartford - Uncensored Models](https://erichartford.com/uncensored-models)
 
-> ![](attachment/be372ee4e81d8068eb209bdc58bf0d50.png)
+> ![[Screenshot 2024-10-01 at 10.20.32 AM.png]]
 > 
 > [Stanford CS25: Transformers United](https://docs.google.com/presentation/d/1quMyI4BAx4rvcDfk8jjv063bmHg4RxZd9mhQloXpMn0/edit#slide=id.g2ca00c5c0f9_0_393)
 
@@ -78,6 +83,7 @@ This motivates the use of open-source LLMs, run on either local or privately-man
 - if the goal is the project of human knowledge, which is to know the world as it is, you cannot know the world as it is without knowing what people really think.
 - every "you can't say that" uttered is depriving myself of knowing what the other really thinks.
 - the goal is compassion and understanding through conversation. and (hopefully) contrary to the instinctual doubt "is the goal to replace conversations with humans with AI?" i think open discourse is universal, and if it enriches one human being, it will continue being shared and told to the next. the goal is to normalize open discourse, and restore the beauty of *human* dialogue.
+	- [[‘Hi Chatbot, let’s Talk about Politics!’ Examining the Impact of Verbal Anthropomorphism in Conversational Agent Voting Advice Applications (CAVAAs) on Higher and Lower Politically Sophisticated Users]]
 
 # Footnote: A Personal Story
 
