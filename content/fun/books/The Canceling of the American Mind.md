@@ -1,0 +1,44 @@
+- [Express Unpopular Views - Rule of Law](https://www.uscourts.gov/educational-resources/educational-activities/express-unpopular-views-rule-law)
+    - can't ban something because it is deemed subjectively offensive
+    - this "bedrock principle" of America makes sense given its population - wildly diverse in the definition of what is offensive, what is acceptable
+- What is *not* protected in freedom of speech and expression?
+    - threats
+    - discriminatory harrassment
+        - severe, persistent, pervasive pattern of behavior directed towards an individual or group designed to be discriminatory
+        - applies on campus and other institutions, but not considered a part of the general freedom of speech
+    - incitement to imminent lawless actions
+    - defamation (accusation of fact, i.e., this person is a psychopath)
+- What is "free speech culture"?
+    - To a degree, culture and law work hand-in-hand to a degree
+        - What preceded the law of free speech is the free speech movement
+    - "Norms" that reflect a free speech culture:
+        - "it's a free country"
+        - "to each their own"
+        - "walk a mile in someone's shoes before you judge them"
+- When did it go wrong?
+    - it is easy to get in trouble because of your opinion on college campuses, even back in 2001 (administrators, and professors)
+        - students, however, exercised freedom of speech quite well back then.
+    - administrative class at universities
+        - growing energy of political correctness, motivated by a moral fervor for "enlightened censorship" (improve the world by shutting people up), mid 1980s-1990s
+            - codes of this nature *off campus* were dismissed
+            - but *on campus*, they can be enforced by the administrative class (no matter whether professors got disenchanted by this idea)
+    - end of 2013 and 2014, students started coming in demanding deplatforming of speakers they didn't like, demanding new speech codes for trigger warnings and microagressions.
+        - students bought the idea of enlightened censorship of the administrative class, now collaborating to get people punished.
+    - data in book, speaker is founder of FIRE, foundation that defends and sustains individual rights of americal free speech and thought
+        - over 1000 attempts to get professors fired, overwhelmingly concentrated at the most elite colleges in the country
+            - 200 got fired
+            - more than 40 were tenured professors
+    - in a professor polling, 1 in 6 admitted to being investigated or threatened with investigation for their speech, academic freedom, research.
+- dates seem to coincide with the invention of the social network
+    - invention of the printing press
+        - started with optimism about the possibility of mass distribution of knowledge through text
+        - led to the proliferation of civil and religious strife
+        - Henry VIII thus licensed printing press, limiting power of publication to a few (censorship)
+        - ultimately, this was disruptive, but it was worth the strife, leading to scientific revolution, and passing down of knowledge
+        - most importantly, millions of people could look at an idea, and say, this is dumb. the public eye, or "disconfirmation"
+    - invention of social media
+        - started with optimism about the internet
+        - led to the proliferation of cancel culture:
+            - instead of encouraging expression of our weirdness on the internet, it mobilizes groups of people to tear down ideas
+        - similar to the millions of eyes that the printing press, but scaled up
+            - this isn't necessarily bad. *but*, what social media fails to do is build back up what has been broken down.
